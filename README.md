@@ -14,17 +14,41 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
     - [X] Instalar Visual Studio Code
 
 -[X] Criar e ativar o ambiente virtual
-```
+``` istó é um markdown
 Utilizar o CMD
 python -m venv .\venv\
 venv\Scripts\activate
 ```
 
+- [X] Instalar o Django
 
-- [] Instalar o Django
-- [] Criar o projeto PersonalCheff
-- [] Subir o servidor de testar o projeto 
-- [] Altear o idoonma do projeto para 'pt-br'
+```python -m pip install django==3.2
+    pip freeze 
+    //verifica se todos os pacotes foram instalados
+```
+
+- [x] Criar o projeto PersonalCheff
+
+```
+django-admin.py startproject PersonalCheffProject
+```
+
+- [x] Subir o servidor de testar o projeto 
+
+entrar na pasta do projeto 
+```cd PersonalCheffProj
+```
+Comando foi subir e executar o servidor
+```
+pythom -manage.py runserver 
+```
+
+
+apertar o control e criar no enderço do servidor para abrir
+
+- [X] Altear o idoonma do projeto para 'pt-br'
+Abrir o arquivo setting.py e na linha 106 alterar en-us para pt-br
+
 - [] Alterar o timezone do projeto para 'America/São_Paulo'
  - [] Criar app receitas 
  - [] Registrar o app receitas
