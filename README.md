@@ -14,9 +14,11 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
     - [X] Instalar Visual Studio Code
 
 -[X] Criar e ativar o ambiente virtual
+```
 Utilizar o CMD
 python -m venv .\venv\
 venv\Scripts\activate
+```
 
 
 - [] Instalar o Django
